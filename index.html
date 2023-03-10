@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>SecFileUiProject</title>
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="icon" type="image/x-icon" href="/img/icon.png">
+</head>
+<body>
+  <div id="container">
+      
+  <!-----  Navbar  ----->
+  
+    <header>
+      <div class="myfiles">MyFiles</div>
+      <div class="nav-icons">
+        <img src="img/search.png" class="nav-icon">
+        <img src="img/3lines.png" class="nav-icon">
+        <img src="img/2points.png" class="nav-icon">
+      </div>
+    </header>
+    <main>
+    
+    <!----- Lift Side ----->
+    
+    <aside id="left-side">
+          
+    <!----- Categoraies ----->
+    
+      <div class="margin-top">
+      <div class="icon-txtt">
+        <img src="img/recent.png" id="recent-files" class="cate-icon"><label for="recent-files">Recent files</label>
+      </div>
+      </div>
+      <fieldset id="categoraies">
+        <legend class="categoraies">Categoraies</legend>
+        <div class="icon-txtt">
+        <img src="img/dcim.png" id="images" class="cate-icon"><label for="images">Images</label>
+        </div>
+        <div class="icon-txtt">
+        <img src="img/videos.png" id="videos" class="cate-icon"><label for="videos">Videos</label>
+        </div>
+        <div class="icon-txtt">
+        <img src="img/audios.png" id="audios" class="cate-icon"><label for="audios">Audios</label>
+        </div>
+        <div class="icon-txtt">
+        <img src="img/documents.png" id="documents" class="cate-icon"><label for="documents">Documents</label>
+        </div>
+        <div class="icon-txtt">
+        <img src="img/downloads.png" id="downloads" class="cate-icon"><label for="downloads">Downloads</label>
+        </div>
+        <div class="icon-txtt">
+          <img src="img/apks.png" id="apks" class="cate-icon"><label for="apks">Installiton Files</label>
+        </div>
+      </fieldset>
+      
+      <!----- Internal Devic Storage ----->
+      
+      <div id="internal-devic-storage">
+        <div id="internal-icontxt">
+          <img src="img/storage.png" id="internal-icon">
+          <div class="label"><p class="internal-storaget">Internal Storage</p>
+          <p id="internal-storaged">21.77GB / 32.00GB</p>
+          </div>
+        </div>
+        
+        <!----- Internal Files  ----->
+        
+        <ul>
+          <li class="icon-txtd"><img src="img/left-files.png" class="left-files-icon"><p class="left-files-txt">Android</p></li>
+          <li class="icon-txtd"><img src="img/left-files.png" class="left-files-icon"><p class="left-files-txt">DCIM</p></li>
+          <li class="icon-txtd"><img src="img/left-files.png" class="left-files-icon"><p class="left-files-txt">Documents</p></li>
+          <li class="icon-txtd"><img src="img/left-files.png" class="left-files-icon"><p class="left-files-txt">Download</p></li>
+          <li class="icon-txtd"><img src="img/left-files.png" class="left-files-icon"><p class="left-files-txt">Music</p></li>
+          <li class="icon-txtd"><img src="img/left-files.png" class="left-files-icon"><p class="left-files-txt">Videos</p></li>
+          <li class="icon-txtd"><img src="img/zip.png" class="left-files-icon"><p class="left-files-txt">sm-a600n.zip</p></li>
+        </ul>
+        
+        <!----- SD Card Storage ----->
+        
+          <div id="sdcard-icontxt">
+            <img src="img/sdcard.png" id="sdcard-icon">
+            <label for="sdcard-icon"><p class="sdcard-storaget">SD card
+              <p id="sdcard-storaged">Not Inserted</p>
+            </label>
+          </div>
+          
+          <!----- Storage Analysis ----->
+          
+          <div class="taking-space">
+            <p class="taking-space-p">See what's taking up your space in your storage</p>
+            <button class="taking-space-btn">Storage analysis</button>
+          </div>
+      </div>
+    </aside>
+    
+          <!----- Right Side ----->
+          
+    <aside id="right-side">
+      <p class="rightnav-p">Internal Storage<span>21.77 GB</span></p>
+      <ul class="rightnav">
+        <li class="name">Name</li>
+        <li class="type1">Type</li>
+        <li class="size1">Size</li>
+      </ul>
+      <ul class="r-files">
+        <li class="r-ictx1">
+          <div class="r-ictx2">
+            <img src="img/right-files.png" class="right-files-icon">
+            <img src="img/android.png" class="littel-icon"><p class="right-files-txt">Android</p>
+          </div>
+          <p class="type2">Folder</p>
+          <p class="size2">4 Items</p>
+        </li>
+        <li class="r-ictx1">
+          <div class="r-ictx2">
+            <img src="img/right-files.png" class="right-files-icon"><img src="img/dcim.png" class="littel-icon"><p class="right-files-txt">DCIM</p>
+          </div>
+          <p class="type2">Folder</p>
+          <p class="size2">4 Items</p>
+        </li>
+        <li class="r-ictx1">
+          <div class="r-ictx2">
+            <img src="img/right-files.png" class="right-files-icon">
+            <img src="img/document.png" class="littel-icon"><p class="right-files-txt">Documents</p>
+          </div>
+          <p class="type2">Folder</p>
+          <p class="size2">0 Items</p>
+        </li>
+        <li class="r-ictx1">
+          <div class="r-ictx2">
+            <img src="img/right-files.png" class="right-files-icon">
+            <img src="img/download.png" class="littel-icon"><p class="right-files-txt">Downloads</p>
+          </div>
+          <p class="type2">Folder</p>
+          <p class="size2">23 Items</p>
+        </li>
+        <li class="r-ictx1">
+          <div class="r-ictx2">
+            <img src="img/right-files.png" class="right-files-icon">
+            <img src="img/music.png" class="littel-icon"><p class="right-files-txt">Music</p>
+          </div>
+          <p class="type2">Folder</p>
+          <p class="size2">108 Items</p>
+        </li>
+        <li class="r-ictx1">
+          <div class="r-ictx2">
+            <img src="img/zip.png" class="right-files-icon">
+            <p class="right-files-txt">sm-a600n.zip</p>
+          </div>
+          <p class="type2">ZIP</p>
+          <p class="size2">1.27GB</p>
+        </li>
+        <li class="r-ictx1">
+          <div class="r-ictx2">
+            <img src="img/right-files.png" class="right-files-icon">
+            <img src="img/video.png" class="littel-icon"><p class="right-files-txt">Videos</p>
+          </div>
+          <p class="type2">Folder</p>
+          <p class="size2">17 Items</p>
+        </li>
+      </ul>
+    </aside>
+    </main>
+    <footer>
+      <img src="img/storage.png" class="footer-storage-icon">
+      <div class="txt-marker">
+        <p class="f-storage-nm">Internal Storage</p>
+        <div class="marker">
+          <div class="one"></div>
+        </div>
+      </div>  
+        <div class="file-folders-storage">
+          <p class="file-folders"><b>1</b> file, <b>6</b> folders</p>
+          <p class="footer-storage">21.77GB / 32GB</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
